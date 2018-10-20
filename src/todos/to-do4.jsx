@@ -7,9 +7,9 @@ export class Todo4 extends React.Component {
         let answer = window.prompt("What do you want to add in the new card?");
         if (answer !== null) {
             var li = document.createElement("li");
-            var newLi = li.appendChild(document.createTextNode(answer));
+            li.appendChild(document.createTextNode(answer));
             var ul = document.getElementById("ul4");
-            ul.appendChild(newLi);
+            ul.appendChild(li);
         }
         
     }
