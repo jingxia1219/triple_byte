@@ -18,7 +18,7 @@ render() {
         
      <div className='col-1'>
      <div>
-        <span> <h6 className='user-name-1'> Winnie</h6> </span>
+        <div >  <p className='user-name-1'> Winnie </p> </div>
         <ul id='ul1'>
             <li>
                 Buy eggs

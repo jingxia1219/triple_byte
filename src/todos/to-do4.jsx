@@ -19,7 +19,7 @@ render() {
         
      <div className='col-1'>
      <div>
-        <span> <h6 className='user-name-4'> George</h6> </span>
+        <span> <p className='user-name-4'> George</p> </span>
         <ul id='ul4'>
             <li>
                 Buy eggs

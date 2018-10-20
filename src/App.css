@@ -22,8 +22,15 @@ body {
 .user-name-1, .user-name-2, .user-name-3, .user-name-4 {
   /* background-color: #61dafb; */
   height: 30px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* .name {
+  text-align: center;
+  vertical-align: middle;
+} */
 .user-name-1 {
   background-color: #8E6E95;
 }
