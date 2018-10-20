@@ -21,6 +21,7 @@ body {
 
 .user-name-1, .user-name-2, .user-name-3, .user-name-4 {
   /* background-color: #61dafb; */
+  font-family: Arial, Helvetica, sans-serif;
   height: 30px;
   display: flex;
   align-items: center;
