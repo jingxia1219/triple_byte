@@ -1,15 +1,6 @@
 import React from 'react';
-import Shared from 'shared';
 
-export class Todo1 extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         name:this.props.name,
-    //         className:this.props.className
-    //     }
-    // }
-
+export class Shared extends React.Component {
     handleSubmit(e) {
         e.preventDefault();
         let answer = window.prompt("What do you want to add in the new card?");
@@ -26,7 +17,7 @@ render() {
         
      <div className='col-1'>
      <div>
-        <div >  <p className={`${this.props.className}`}> {`${this.props.name}`} </p> </div>
+        <div >  <var className={`${this.props.className}`}> {`${this.props.name}`} </var> </div>
         <ul id='ul1'>
             <li>
                 Buy eggs
