@@ -3,7 +3,7 @@ import React from 'react';
 export class Shared extends React.Component {
     handleSubmit(e) {
         e.preventDefault();
-        let answer = window.prompt("What do you want to add in the new card?");
+        let answer = window.prompt("What do you want to add in the new card?", 'eg. Pick up the kids from school');
         if (answer !== null) {
         var li = document.createElement("li");
         li.appendChild(document.createTextNode(answer));
